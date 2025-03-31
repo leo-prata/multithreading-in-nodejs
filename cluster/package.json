@@ -1,0 +1,25 @@
+{
+  "name": "cluster",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --loader ts-node/esm primary.ts",
+    "build": "tsc",
+    "start": "node dist/primary.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "loadtest": "^8.2.0",
+    "pm2": "^6.0.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
